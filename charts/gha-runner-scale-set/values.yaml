@@ -46,7 +46,7 @@ githubConfigSecret: github-credentials
 # runnerGroup: "default"
 
 ## name of the runner scale set to create.  Defaults to the helm release name
-# runnerScaleSetName: ""
+runnerScaleSetName: "oriontec-hosted"
 
 ## A self-signed CA certificate for communication with the GitHub server can be
 ## provided using a config map key selector. If `runnerMountPath` is set, for
